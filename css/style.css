@@ -1,0 +1,144 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.little_box {
+	float:right;
+	margin: 13px 10px 13px 10px;
+}
+
+.google_image {
+	max-width: 500px;
+	max-height: 100px;
+	padding-bottom: 10px;
+	padding-top: 150px;
+	clear: right;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+.sign_in {
+	color: white;
+	background-color: #6973FC;
+	float: right;
+	margin: 13px 10px 13px 10px;
+	font-weight: bold;
+	font-size: 13px;
+	border: none;
+	padding: 6px 10px 6px 10px;
+	border-radius: 2px;
+	clear: right;
+}
+
+.header_links {
+	margin: 13px 10px 13px 10px;
+	text-decoration: none;
+	color: black;
+	font-size: 13px;
+	float: right;
+}
+
+nav {
+	min-width: 900px;
+}
+
+section {
+	min-width: 900px;
+}
+
+.searchbar {
+	clear: right;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	width: 500px;
+	height: 22px;
+}
+
+.searchbar:focus, text {
+	outline-color: #6973FC;
+	outline-width: 1px;
+	outline-style: solid;
+}
+
+.button_layout {
+	min-width: 900px;
+}
+
+.button_container {
+	clear: right;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	max-width: 215px;
+	min-width: 215px;	
+}
+
+.buttons {
+	margin-bottom: 40px;
+	margin-top: 15px;
+}
+
+.button_styling {
+	border-radius: 2px;
+	background-color: #f5f5f5;
+	font-size: 11px;
+	font-weight: bold;
+	color: black;
+	padding: 4px 6px 4px 6px;
+	border: 1px solid #C0C0C0;
+}
+
+.left_button {
+	display: inline-block;
+}
+
+.right_button {
+	display: inline-block;
+}
+
+
+.footer_right {	
+	float: right;
+}
+
+.footer_links {
+	margin: 13px 20px 13px 20px;
+	text-decoration: none;
+	color: grey;
+	font-size: 13px;
+	display: inline-block;
+}
+
+.footer_links:hover {
+	text-decoration: underline;
+}
+
+footer {
+	background-color: #f5f5f5;
+	min-width: 900px;
+	clear: right;
+	border-top: 1px solid #C0C0C0;
+}
+
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -40px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 40px; 
+}
